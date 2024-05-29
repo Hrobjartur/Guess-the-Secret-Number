@@ -1,0 +1,88 @@
+/* Set page colour so we can create Dark mode */
+body {
+    background-color: white;
+    transition: background-color 0.5s ease;
+    padding-top: 30px;
+}
+
+/* Align game content to center */
+.container {
+    text-align: center;
+}
+
+/* Round game corners and align the game in the middle */
+.game {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    border: 3px solid hsl(150, 30%, 40%);
+}
+
+/* Style Dark mode button */
+.toggleBtn {
+    background-color: hsl(150, 30%, 40%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Change Dark mode button BG colour when mouse hover */
+.toggleBtn:hover {
+    background-color: hsl(210, 60%, 50%);
+}
+
+/* Change Dark mode button BG and SVG colour when clicked */
+.toggleBtn:active {
+    background-color: hsl(210, 60%, 60%);
+    color: black;
+}
+
+/* Set various text sizes */
+.instructionText {
+    font-size: 1.3em;
+}
+
+.textBox {
+    font-size: 1.3em;
+}
+
+#result {
+    font-size: 1.2em;
+}
+
+/* Style buttons and their actions (hover, click) */
+.button {
+    font-size: 1.1em;
+    border-radius: 30px;
+    cursor: pointer;
+    border: solid;
+    border-color: hsl(0, 0%, 50%);
+    border-width: 1px;
+}
+
+button {
+    padding: 15px;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+    color: black;
+}
+
+/* Align History left */
+#history{
+    padding-top: 15px;
+    padding-left: 20px;
+    text-align: left;
+}
